@@ -1,5 +1,6 @@
-.App {
-  text-align: center;
+
+* {
+  background-color: #E9E9E9;
 }
 
 .App-logo {
@@ -28,11 +29,74 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: 'Nunito-BlackItalic';
+  src: local('FiraSans'), url(./fonts/Nunito-BlackItalic.ttf) format('truetype');
 }
+
+@font-face {
+  font-family: 'Nunito-ExtraLightItalic';
+  src: local('FiraSans'), url(./fonts/Nunito-ExtraLightItalic.ttf) format('truetype');
+}
+#nav-fontL {
+  font-family: 'Nunito-BlackItalic';
+  color: #AD0505;
+  font-size: 25px;
+}
+
+#nav-fontR {
+  font-family: 'Nunito-ExtraLightItalic';
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#nav-link-position {
+  margin-left: auto;
+}
+
+#nav-link-font {
+  font-family: 'Nunito-ExtraLightItalic';
+  color: black;
+  font-weight: 400;
+  font-size: 18px
+}
+
+#nav-link-font:hover {
+  font-family: 'Nunito-BlackItalic';
+  color: #AD0505;
+}
+
+p {
+  padding-left: auto;
+}
+
+.Button {
+  width: 35vh;
+  font-weight: bolder;
+  border: solid  #AD0505;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  border-radius: 15px;
+}
+
+#btn-green:hover {
+  background-color: rgb(48, 184, 48);
+  border: solid   rgb(48, 184, 48);
+  color: white;
+}
+
+#btn-red {
+  background-color:  #AD0505;
+  color: white;
+}
+
+#btn-red:hover {
+  background-color:  #AD0505;
+}
+

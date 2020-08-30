@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import 'bootstrap/dist/css/bootstrap.css';
+import './fonts/Nunito-BlackItalic.ttf';
+import './fonts/Nunito-ExtraLightItalic.ttf';
 
 ReactDOM.render(
   <React.StrictMode>
