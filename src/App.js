@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './App.css';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
@@ -16,9 +16,11 @@ import DesignPage from './pages/DesignPage';
 
 
 
-  class App extends Component {
+  class App extends React.Component {
   
-    state = {
+    constructor(props) {
+        super(props);
+        this.state = {
         title: "Wesbert Jr Edouard",
         headerLinks: [
             {title: 'home', path:'/'},
@@ -29,7 +31,7 @@ import DesignPage from './pages/DesignPage';
             {title: 'design', path:'/design'}
         ],
         home: {
-            title: 'Hi, my name is Wesbert Edouard',
+            title: 'Wesbert Edouard',
             subtitle1: 'I am a Student',
             subtitle2: 'Front-End Developer',
             subtitle3: 'UX Designer',
@@ -57,6 +59,7 @@ import DesignPage from './pages/DesignPage';
         },
     
       }
+    }
   
 
      render() {
@@ -82,11 +85,11 @@ import DesignPage from './pages/DesignPage';
 
         
             <Route path='/' exact render={() => <HomePage title={this.state.home.title} subTitle1={this.state.home.subtitle1} subTitle2={this.state.home.subtitle2} subTitle3={this.state.home.subtitle3} text={this.state.home.text}/>}/>
-            <Route path='/contact' exact render={() => <ContactPage title={this.state.contact.title} subTitle={this.state.contact.subtitle} text={this.state.contact.text}/>}/>
-            <Route path='/about' exact render={() => <AboutPage title={this.state.about.title} subTitle={this.state.about.subtitle} text={this.state.about.text}/>}/>
-            <Route path='/projects' exact render={() => <ProjectsPage title={this.state.projects.title} subTitle={this.state.projects.subtitle} text={this.state.projects.text}/>}/>
-            <Route path='/skills' exact render={() => <SkillsPage title={this.state.skills.title} subTitle={this.state.skills.subtitle} text={this.state.skills.text}/>}/>
-            <Route path='/design' exact render={() => <DesignPage title={this.state.design.title} subTitle={this.state.design.subtitle} text={this.state.design.text}/>}/>
+            <Route path='/contact' render={() => <ContactPage title={this.state.contact.title} subTitle={this.state.contact.subtitle} text={this.state.contact.text}/>}/>
+            <Route path='/about' render={() => <AboutPage title={this.state.about.title} subTitle={this.state.about.subtitle} text={this.state.about.text}/>}/>
+            <Route path='/projects' render={() => <ProjectsPage title={this.state.projects.title} subTitle={this.state.projects.subtitle} text={this.state.projects.text}/>}/>
+            <Route path='/skills' render={() => <SkillsPage title={this.state.skills.title} subTitle={this.state.skills.subtitle} text={this.state.skills.text}/>}/>
+            <Route path='/design' render={() => <DesignPage title={this.state.design.title} subTitle={this.state.design.subtitle} text={this.state.design.text}/>}/>
             
             
             <Footer/> 

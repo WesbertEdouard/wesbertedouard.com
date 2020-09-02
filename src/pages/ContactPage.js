@@ -2,10 +2,10 @@ import React from 'react';
 
 
 
-const ContactPage = (props) => {
+function ContactPage(props) {
     return (
        <p>Contact page Works!</p>
-    )
-};
+    );
+}
 
 export default ContactPage;
