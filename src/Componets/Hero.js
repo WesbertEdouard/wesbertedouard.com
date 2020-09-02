@@ -18,7 +18,7 @@ function Hero(props) {
                         {props.subTitle3 && <h3 className='display-4 font-weight-light'>{props.subTitle3}</h3>}
                         {props.text && <h3 className='lead font-weight-light'>{props.text}</h3>}
                         <div className='pt-10'>
-                            <button className='Button' id='btn-red'>My Projects </button>
+                            <button className='Button' id='btn-red'>My Projects</button>
                             <button className='Button' id='btn-green'>Contact Me</button>
                         </div>
                     </Col>
