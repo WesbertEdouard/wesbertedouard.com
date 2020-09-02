@@ -12,7 +12,7 @@ function Hero(props) {
             <Container fluid={true}>
                 <Row className="justify-content-left py-5 pl-5">
                     <Col md={8} sm={12}>
-                        {props.title && <h1 className='display-2 font-weight-bolder'>{props.title}</h1>}
+                        {props.title && <h1 className='display-3 font-weight-bolder' id='Name_header'>{props.title}</h1>}
                         {props.subTitle1 && <h3 className='display-4 font-weight-light'>{props.subTitle1}</h3>}
                         {props.subTitle2 && <h3 className='display-4 font-weight-light'>{props.subTitle2}</h3>}
                         {props.subTitle3 && <h3 className='display-4 font-weight-light'>{props.subTitle3}</h3>}

@@ -31,12 +31,12 @@
 
 @font-face {
   font-family: 'Nunito-BlackItalic';
-  src: local('FiraSans'), url(/fonts/Nunito-BlackItalic.ttf) format('truetype');
+  src: local('FiraSans'), url(./fonts/Nunito-BlackItalic.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Nunito-ExtraLightItalic';
-  src: local('FiraSans'), url(/fonts/Nunito-ExtraLightItalic.ttf) format('truetype');
+  src: local('FiraSans'), url(./fonts/Nunito-ExtraLightItalic.ttf) format('truetype');
 }
 #nav-fontL {
   font-family: 'Nunito-BlackItalic';
@@ -67,6 +67,10 @@
   color: #AD0505;
 }
 
+#Name_header {
+  margin-left: -10px;
+}
+
 p {
   padding-left: auto;
 }
@@ -94,6 +98,11 @@ p {
 #btn-red {
   background-color:  #AD0505;
   color: white;
+}
+
+#btn-red:hover {
+  background-color:  #AD0505;
+  color: black;
 }
 
 #btn-red:hover {
