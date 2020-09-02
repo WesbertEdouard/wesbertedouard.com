@@ -46,7 +46,7 @@ import DesignPage from './pages/DesignPage';
             subtitle: 'Let\'s Work Together'
         },
         projects: {
-            title: 'My Projects',
+            title: 'Projects',
             subtitle: 'Always Learning, Constantly Improving'
         },
         skills: {
@@ -54,7 +54,7 @@ import DesignPage from './pages/DesignPage';
             subtitle: 'To Pay The Bills'
         },
         design: {
-            title: 'Designs & Illustrations',
+            title: 'UX & UI',
             subtitle: 'Creative Development starts here'
         },
     
@@ -72,11 +72,11 @@ import DesignPage from './pages/DesignPage';
                 <Navbar.Collapse id='navbar-toggle'>
                     <Nav id='nav-link-position'>
                         <Link className='nav-link' id='nav-link-font' to='/'>home</Link>
-                        <Link className='nav-link' id='nav-link-font' to='/about'>about</Link>
-                        <Link className='nav-link' id='nav-link-font' to='/contact'>contact</Link>
                         <Link className='nav-link' id='nav-link-font' to='/projects'>projects</Link>
                         <Link className='nav-link' id='nav-link-font' to='/skills'>skills</Link>
                         <Link className='nav-link' id='nav-link-font' to='/design'>design</Link>
+                        <Link className='nav-link' id='nav-link-font' to='/contact'>contact</Link>
+                        <Link className='nav-link' id='nav-link-font' to='/about'>about</Link>
 
                         
                     </Nav>

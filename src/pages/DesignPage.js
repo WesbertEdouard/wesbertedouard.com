@@ -1,9 +1,12 @@
 import React from 'react';
+import '../App.css';
+import Design from '../Componets/Design';
 
-
-function DesignPage (props) {
+function DesignPage(props) {
     return (
-       <p>Design page Works!</p>
+    <div>
+        <Design title={props.title} subTitle={props.subTitle}/>
+    </div>
     );
 }
 

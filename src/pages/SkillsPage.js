@@ -1,9 +1,11 @@
 import React from 'react';
-
+import Skills from '../Componets/Skills';
 
 function SkillsPage(props) {
     return (
-       <p>Skill's page Works!</p>
+    <div>
+        <Skills title={props.title} subTitle={props.subTitle}/>
+    </div>
     );
 }
 

@@ -1,9 +1,16 @@
 import React from 'react';
+import Pro from '../Componets/Pro';
+import Carousel from '../Componets/Carousel';
 
 function ProjectPage(props) {
     return (
-       <p>Project's page Works!</p>
+        <div>
+        <Pro title={props.title} subTitle={props.subTitle}/>
+    
+        <Carousel/>
+    </div>
     );
 }
 
 export default ProjectPage;
+

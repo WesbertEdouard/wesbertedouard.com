@@ -1,10 +1,11 @@
 import React from 'react';
-
+import Contact from '../Componets/Contact';
 
 
 function ContactPage(props) {
     return (
-       <p>Contact page Works!</p>
+        <Contact title={props.title} subTitle={props.subTitle}/>
+    
     );
 }
 
