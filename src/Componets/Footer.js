@@ -6,7 +6,7 @@ import './Footer.css';
 
 const Footer = (props) => {
     return (
-        <footer className="mt-5">
+        <footer className="footer">
             <Container fluid={true}>
                 <Row className='border-top p-3'>
                     <Col className='p-0' id='footer-font'>

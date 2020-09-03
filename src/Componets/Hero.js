@@ -26,9 +26,11 @@ function Hero(props) {
                         </div>
                     </Col>
                 </Row>
+                
             </Container>
             
         </Jumbotron>
+        
         
     );
 }

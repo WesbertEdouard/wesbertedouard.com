@@ -64,10 +64,12 @@ import DesignPage from './pages/DesignPage';
 
      render() {
     return (
-      <Router>
+      <Router >
         <Container className='p-0' fluid={true}>
-            <Navbar className='border-bottom' bg='transparent' expand='lg'>
-                <NavbarBrand id='nav-fontL'>wesbertedouard<NavbarBrand className='d-inline-block p-0' id='nav-fontR'>.com</NavbarBrand></NavbarBrand>
+            <Navbar bg='transparent' expand='lg'>
+                <a  href={'/'}>
+                    <NavbarBrand id='nav-fontL'>wesbertedouard<NavbarBrand className='d-inline-block p-0' id='nav-fontR'>.com</NavbarBrand></NavbarBrand>
+                </a> 
                 <Navbar.Toggle className='border-0' aria-controls='navbar-toggle'/>
                 <Navbar.Collapse id='navbar-toggle'>
                     <Nav id='nav-link-position'>
@@ -92,7 +94,7 @@ import DesignPage from './pages/DesignPage';
             <Route path='/design' render={() => <DesignPage title={this.state.design.title} subTitle={this.state.design.subtitle} text={this.state.design.text}/>}/>
             
             
-            <Footer/> 
+            <Footer bg='transparent' expand='lg'/> 
         </Container>
       </Router>
     );

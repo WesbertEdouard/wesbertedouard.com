@@ -1,7 +1,5 @@
 
-* {
-  background-color: #E9E9E9;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -90,24 +88,31 @@ p {
   border-radius: 15px;
 }
 
+#btn-green {
+  text-decoration: none;
+  border: solid #AD0505;
+  background-color:  #AD0505;
+  color: white;
+  font-family: 'Nunito-BlackItalic';
+}
+
 #btn-green:hover {
   text-decoration: none;
-  background-color: rgb(48, 184, 48);
-  border: solid   rgb(48, 184, 48);
+  border: solid #AD0505;
+  background-color:  #AD0505;
   color: white;
-  font-family: 'Nunito-ExtraLightItalic';
 }
 
 #btn-red {
-  background-color:  #AD0505;
-  color: white;
-  font-family: 'Nunito-ExtraLightItalic';
+  color: rgb(0, 0, 0);
+  font-family: 'Nunito-BlackItalic';
 }
 
 #btn-red:hover {
   text-decoration: none;
-  background-color:  #AD0505;
-  color: rgb(0, 0, 0);
+  border: solid #00f38e;
+  background-color:  #00f38e;
+  color: rgb(255, 255, 255);
 }
 
 #btn-blue {
@@ -126,3 +131,14 @@ p {
   font-size: 18px;
 }
 
+.box {
+ 
+  margin-left: auto;
+}
+
+#wave-image {
+  height: 300px;
+  width: fit-content;
+  margin: 0;
+  padding: 0;
+}

@@ -1,5 +1,4 @@
 
-
 @font-face {
     font-family: 'Nunito-ExtraLightItalic';
     src: local('FiraSans'), url(../fonts/Nunito-ExtraLightItalic.ttf) format('truetype');
@@ -13,3 +12,7 @@
     font-weight: bold;
   }
   
+  .footer {
+    margin-top: 90px;
+    padding: 0;
+  }
