@@ -26,9 +26,9 @@ function AboutPage(props) {
             <Container className='icon-p' fluid={true}>
                 <Row className="justify-content-right py-5 pl-5">
                     <Col lg={12} sm={12}>
-                    <img className='icon' src={github} alt='Github Logo-icon'/><a className='icon-text1' href={'https://github.com/WesbertEdouard'} target='_blank'> Github</a>
-                    <img className='icon' src={linkedin} alt='LinkedIn Logo-icon'/> <a className='icon-text2' href={'https://www.linkedin.com/in/wesberte/'} target='_blank'> LinkedIn</a>
-                    <img className='icon' src={dribbble} alt='Dribbble Logo-icon'/><a className='icon-text3' href={'https://dribbble.com/wesberte'} target='_blank'>  Dribbble</a>
+                    <img className='icon' src={github} alt='Github Logo-icon'/><a className='icon-text1' href={'https://github.com/WesbertEdouard'} target='_blank' rel='nooperner noreferrer'> Github</a>
+                    <img className='icon' src={linkedin} alt='LinkedIn Logo-icon'/> <a className='icon-text2' href={'https://www.linkedin.com/in/wesberte/'} target='_blank' rel='nooperner noreferrer'> LinkedIn</a>
+                    <img className='icon' src={dribbble} alt='Dribbble Logo-icon'/><a className='icon-text3' href={'https://dribbble.com/wesberte'} target='_blank' rel='nooperner noreferrer'>  Dribbble</a>
                     </Col>
                 </Row>
                 
