@@ -38,7 +38,7 @@ import DesignPage from './pages/DesignPage';
             text: 'check out my projects below'
         },
         about: {
-            title: 'About Me',
+            title: 'About',
             subtitle: 'A Passion for Learning'
         },
         contact: {
@@ -67,7 +67,7 @@ import DesignPage from './pages/DesignPage';
       <Router>
         <Container className='p-0' fluid={true}>
             <Navbar className='border-bottom' bg='transparent' expand='lg'>
-                <NavbarBrand id='nav-fontL'>wesbert<NavbarBrand className='d-inline-block p-0' id='nav-fontR'>.com</NavbarBrand></NavbarBrand>
+                <NavbarBrand id='nav-fontL'>wesbertedouard<NavbarBrand className='d-inline-block p-0' id='nav-fontR'>.com</NavbarBrand></NavbarBrand>
                 <Navbar.Toggle className='border-0' aria-controls='navbar-toggle'/>
                 <Navbar.Collapse id='navbar-toggle'>
                     <Nav id='nav-link-position'>
