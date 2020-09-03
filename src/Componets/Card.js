@@ -1,9 +1,12 @@
 import React from 'react';
 import CardInfo from '../Componets/CardInfo';
-
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 function Card(props) { 
 
     return(
+
         <div className='d-inline-block project-card' onClick={(e) => props.click(props.item)}>
             <div className='project-card-image-container'>
             <img className="project-card-image" src={props.item.imgSrc} alt={props.item.imgSrc}/>

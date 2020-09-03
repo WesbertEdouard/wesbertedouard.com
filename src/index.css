@@ -198,7 +198,7 @@ img {
   position: relative;
   left: -80px;
   top: -30px;
-  margin-top: -80px;
+  margin-top: -70px;
   margin-bottom: -80px;
 }
 
@@ -253,4 +253,14 @@ img {
 
 a {
   text-decoration: none  !important;
+}
+
+.success-msg {
+  color: #57a773;
+  padding: 10px 15px;
+}
+
+.success-err {
+  color: #cc2c2c;
+  padding: 10px 15px;
 }

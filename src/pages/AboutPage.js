@@ -22,7 +22,6 @@ function AboutPage(props) {
 
             <p className='about-content-text'>When I'm not learning something new my interests include, spending time with family, playing basketball with friends, reading manga, or creating digital art.</p>
 
-            <p className='about-content-text'>Keep up with my activities here:</p>
 
             <Container className='icon-p' fluid={true}>
                 <Row className="justify-content-right py-5 pl-5">
