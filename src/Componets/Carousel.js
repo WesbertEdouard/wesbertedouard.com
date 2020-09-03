@@ -16,7 +16,7 @@ class Carousel extends React.Component {
                 subtitle: 'Status Reporting System',
                 imgSrc: memoboat,
                 link: 'https://memoboat.tk',
-                selected: false
+                selected: true
             },
             {
                 id:1,

@@ -10,7 +10,7 @@ function Hero(props) {
     return(
         <Jumbotron className='bg-transparent jumbotron-fluid p-0'>
             <Container fluid={true}>
-                <Row className="justify-content-left py-5 pl-5">
+                <Row className="justify-content-right py-5 pl-5">
                     <Col md={8} sm={12}>
                         {props.title && <h1 className='display-3 font-weight-bolder' id='Name_header'>{props.title}</h1>}
                         
@@ -19,10 +19,10 @@ function Hero(props) {
                         {props.subTitle2 && <h3 className='display-4 font-weight-light'>{props.subTitle2}</h3>}
                         
                         {props.subTitle3 && <h3 className='display-4 font-weight-light'>{props.subTitle3}</h3>}
-                        {props.text && <h3 className='lead font-weight-light'>{props.text}</h3>}
+                        {props.text && <h3 className='lead font-weight-light font-italic'>{props.text}</h3>}
                         <div className='pt-10'>
                             <a className='display-inline-block Button' id='btn-red' href={'/projects'}  rel='nooperner noreferrer'>My Projects</a>
-                            <a className='display-inline-block Button' id='btn-green' href={'/about'}  rel='nooperner noreferrer'>Contact Me</a>
+                            <a className='display-inline-block Button' id='btn-green' href={'/contact'}  rel='nooperner noreferrer'>Contact Me</a>
                         </div>
                     </Col>
                 </Row>

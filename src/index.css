@@ -108,3 +108,149 @@ img {
   padding: 10px;
 }
 
+
+.Button {
+  width: 35vh;
+  font-family: 'Nunito-ExtraLightItalic';
+  font-weight: bolder;
+  border: solid  #AD0505;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  border-radius: 15px;
+}
+
+#btn-green {
+  text-decoration: none;
+  border: solid #AD0505;
+  background-color:  #AD0505;
+  color: white;
+  font-family: 'Nunito-BlackItalic';
+}
+
+#btn-green:hover {
+  text-decoration: none;
+  border: solid #AD0505;
+  background-color:  #AD0505;
+  color: white;
+}
+
+#btn-red {
+  color: rgb(0, 0, 0);
+  font-family: 'Nunito-BlackItalic';
+}
+
+#btn-red:hover {
+  text-decoration: none;
+  border: solid #00f38e;
+  background-color:  #00f38e;
+  color: rgb(255, 255, 255);
+}
+
+#btn-blue {
+  width: 80px;
+  height: 40px; 
+  border: solid  #000000;
+  padding: 5px;
+  color:rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  font-family: 'Nunito-ExtraLightItalic';
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#btn-blue:hover {
+  background-color:  #07abdd;
+  border: solid  #07abdd;
+  color: rgb(255, 255, 255);
+}
+
+.box {
+ 
+  margin-left: auto;
+}
+
+#wave-image {
+  height: 300px;
+  width: fit-content;
+  margin: 0;
+  padding: 0;
+}
+
+.about-content-text {
+  font-family: 'Nunito-ExtraLightItalic';
+  color: black;
+  font-weight: bolder;
+  font-size: 25px;
+  position: relative;
+  top: -50px;
+  left: -10px;
+}
+
+.icon-p {
+  position: relative;
+  left: -80px;
+  top: -30px;
+  margin-top: -80px;
+  margin-bottom: -80px;
+}
+
+.icon {
+  width: 70px;
+}
+
+.icon-text1 {
+  padding-right: 70px;
+  padding-left: 0px;
+  position: relative;
+  top: 20px;
+  font-family: 'Nunito-BlackItalic';
+  color: black;
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+.icon-text1:hover {
+  color: black;
+}
+
+.icon-text2 {
+  padding-right: 70px;
+  padding-left: 0px;
+  position: relative;
+  top: 20px;
+  font-family: 'Nunito-BlackItalic';
+  color: #0076B4;
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+.icon-text2:hover {
+  color: #0076B4;
+}
+
+.icon-text3 {
+  padding-right: 70px;
+  padding-left: 0px;
+  position: relative;
+  top: 20px;
+  font-family: 'Nunito-BlackItalic';
+  color: #E74D89;
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+.icon-text3:hover {
+  color: #E74D89;
+}
+
+a {
+  text-decoration: none  !important;
+}
