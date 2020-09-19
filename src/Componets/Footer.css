@@ -5,14 +5,15 @@
   }
   
   #footer-font {
-    display: flex; 
-    justify-content: center; 
+    position: relative;
+    bottom: 0;
+    align-content: center;
     font-family: 'Nunito-ExtraLightItalic';
     color: black;
     font-weight: bold;
   }
   
   .footer {
-    margin-top: 90px;
+  
     padding: 0;
   }
